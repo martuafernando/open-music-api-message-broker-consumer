@@ -1,0 +1,26 @@
+{
+  "name": "open-music-api-message-broker-consumer",
+  "version": "1.0.0",
+  "description": "Consumer of message broker from Open Music API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martuafernando/open-music-api-message-broker-consumer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/martuafernando/open-music-api-message-broker-consumer/issues"
+  },
+  "homepage": "https://github.com/martuafernando/open-music-api-message-broker-consumer#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.9.2",
+    "pg": "^8.11.0"
+  }
+}
